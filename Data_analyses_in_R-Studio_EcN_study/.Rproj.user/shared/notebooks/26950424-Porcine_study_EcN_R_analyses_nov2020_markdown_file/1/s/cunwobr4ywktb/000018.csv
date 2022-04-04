@@ -1,0 +1,2 @@
+"0",""
+"0","with(res, plot(log2FoldChange, -log10(pvalue), pch=20, main=""Volcano plot""))"

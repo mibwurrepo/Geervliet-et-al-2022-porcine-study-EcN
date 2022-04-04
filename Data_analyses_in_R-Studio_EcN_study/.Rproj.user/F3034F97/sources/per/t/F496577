@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1635800128156.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2278165450",
+    "id" : "F496577",
+    "lastKnownWriteTime" : 1641934406,
+    "last_content_update" : 1641934406631,
+    "path" : "C:/Users/Hugo/Dropbox/DATA_ANALYSIS/Porcine_study_EcN_june2021_trimmed/Porcine_study_EcN_R_analyses_nov2020_markdown_file2.Rmd",
+    "project_path" : "Porcine_study_EcN_R_analyses_nov2020_markdown_file2.Rmd",
+    "properties" : {
+        "cursorPosition" : "191,22",
+        "docOutlineVisible" : "1",
+        "scrollLine" : "157"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

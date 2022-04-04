@@ -1,0 +1,2 @@
+"0",""
+"0","plot(resid(lme.pre.pd2, method= ""pearson"")~ad.df.pre$Day_of_study_factor); abline(0,0)"

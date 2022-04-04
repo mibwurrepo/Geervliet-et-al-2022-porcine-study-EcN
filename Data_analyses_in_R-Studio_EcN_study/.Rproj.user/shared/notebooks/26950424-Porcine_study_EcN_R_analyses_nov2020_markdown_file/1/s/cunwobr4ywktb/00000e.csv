@@ -1,0 +1,1 @@
+"0","with(subset(res, abs(log2FoldChange)>1), textxy(log2FoldChange, -log10(pvalue), labs=Gene, cex=.8))"

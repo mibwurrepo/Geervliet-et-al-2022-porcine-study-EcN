@@ -1,0 +1,6 @@
+"0","res <- read.table(""./input_data/ileum_data_volcano_plot_for_R_d27_vs_d44_ecn_padj.csv"","
+"0","                      header = TRUE,"
+"0","                      sep = "","","
+"0","                      stringsAsFactors = FALSE)"
+"0",""
+"0","head(res)"

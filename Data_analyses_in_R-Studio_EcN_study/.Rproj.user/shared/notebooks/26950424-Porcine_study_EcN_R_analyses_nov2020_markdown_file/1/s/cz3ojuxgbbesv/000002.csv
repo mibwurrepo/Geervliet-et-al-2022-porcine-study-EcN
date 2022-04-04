@@ -1,0 +1,21 @@
+"0","# calculate Shannon and InvSimpson alpha diversity and add metadata"
+"0","ad.df.pre.proteobacteria <- data.frame(""Description"" = colnames(ps1.pre.proteobacteria.otu))"
+"0",""
+"0","ad.df.pre.proteobacteria$Observed <- estimate_richness(ps1.fcs.pre.proteobacteria, measures = ""Observed"")$Observed"
+"2","The data you have provided does not have
+any singletons. This is highly suspicious. Results of richness
+estimates (for example) are probably unreliable, or wrong, if you have already
+trimmed low-abundance taxa from the data.
+
+We recommended that you find the un-trimmed data and retry."
+"0","ad.df.pre.proteobacteria$Shannon <- estimate_richness(ps1.fcs.pre.proteobacteria, measures = ""Shannon"")$Shannon"
+"2","The data you have provided does not have
+any singletons. This is highly suspicious. Results of richness
+estimates (for example) are probably unreliable, or wrong, if you have already
+trimmed low-abundance taxa from the data.
+
+We recommended that you find the un-trimmed data and retry."
+"0","ad.df.pre.proteobacteria <- merge(meta(ps1.fcs.pre.proteobacteria.r), ad.df.pre.proteobacteria, by = ""Description"", all.x=T)"
+"0",""
+"0","ad.df.pre.proteobacteria <- ad.df.pre.proteobacteria"
+"0",""

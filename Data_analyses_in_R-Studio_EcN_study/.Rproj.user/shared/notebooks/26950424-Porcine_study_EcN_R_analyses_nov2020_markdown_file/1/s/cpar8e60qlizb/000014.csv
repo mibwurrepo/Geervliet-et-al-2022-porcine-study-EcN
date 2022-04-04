@@ -1,0 +1,3 @@
+"0",""
+"0","aov.pd.ls2 <- anova(lme.pd2) #InvSimpson diversity"
+"0","aov.pd.ls2 #no significant difference on all faecal samples between treatment groups"

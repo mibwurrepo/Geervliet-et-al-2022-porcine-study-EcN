@@ -1,0 +1,3 @@
+"0",""
+"0","# Add colored points: red if padj<0.05, orange of log2FC>1, green if both)"
+"0","with(subset(res, padj<.05 ), points(log2FoldChange, -log10(pvalue), pch=20, col=""red""))"

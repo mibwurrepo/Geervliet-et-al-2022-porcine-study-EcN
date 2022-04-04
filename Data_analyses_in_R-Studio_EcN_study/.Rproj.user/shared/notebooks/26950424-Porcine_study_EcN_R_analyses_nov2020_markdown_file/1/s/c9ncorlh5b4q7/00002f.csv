@@ -1,0 +1,3 @@
+"0",""
+"0","fm1 <- lme(score ~ time + group + time * group, data = my_data, method = ""REML"", random = ~ 1 | department, na.action=na.omit)"
+"0","anova(fm1)"

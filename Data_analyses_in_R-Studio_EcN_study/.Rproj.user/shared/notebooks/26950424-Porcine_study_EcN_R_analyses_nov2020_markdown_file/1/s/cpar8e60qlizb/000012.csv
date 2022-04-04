@@ -1,0 +1,4 @@
+"0",""
+"0","# model output"
+"0","aov.pd.ls1 <- anova(lme.pd1) #Shannon diversity"
+"0","aov.pd.ls1 #no significant difference on all faecal samples between treatment groups"

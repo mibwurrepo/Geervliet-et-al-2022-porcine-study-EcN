@@ -1,0 +1,21 @@
+"0","# calculate Shannon and InvSimpson alpha diversity and add metadata"
+"0","ad.df.pre <- data.frame(""Description"" = colnames(ps1.pre.otu))"
+"0",""
+"0","ad.df.pre$Shannon <- estimate_richness(ps1.fcs.pre)$Shannon"
+"2","The data you have provided does not have
+any singletons. This is highly suspicious. Results of richness
+estimates (for example) are probably unreliable, or wrong, if you have already
+trimmed low-abundance taxa from the data.
+
+We recommended that you find the un-trimmed data and retry."
+"0","ad.df.pre$InvSimpson <- estimate_richness(ps1.fcs.pre)$InvSimpson"
+"2","The data you have provided does not have
+any singletons. This is highly suspicious. Results of richness
+estimates (for example) are probably unreliable, or wrong, if you have already
+trimmed low-abundance taxa from the data.
+
+We recommended that you find the un-trimmed data and retry."
+"0","ad.df.pre <- merge(meta(ps1.fcs.pre.r), ad.df.pre, by = ""Description"", all.x=T)"
+"0",""
+"0","ad.df.pre <- ad.df.pre"
+"0",""

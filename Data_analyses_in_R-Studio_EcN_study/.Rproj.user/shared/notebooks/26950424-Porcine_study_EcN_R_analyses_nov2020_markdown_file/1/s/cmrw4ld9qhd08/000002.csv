@@ -1,0 +1,6 @@
+"0","# this is the raw, unfiltered phyloseq file"
+"0","saveRDS(ps1.all, ""./phyobjects/ps1_all.rds"")"
+"0","ps1.all <- readRDS(""./phyobjects/ps1_all.rds"")"
+"0",""
+"0","# create new object to work with"
+"0","ps1 <- ps1.all"

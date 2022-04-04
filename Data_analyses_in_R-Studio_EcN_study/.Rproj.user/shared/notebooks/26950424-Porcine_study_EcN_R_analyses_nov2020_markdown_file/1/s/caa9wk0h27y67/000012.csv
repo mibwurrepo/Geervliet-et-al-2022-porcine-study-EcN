@@ -1,0 +1,4 @@
+"0",""
+"0","# model output"
+"0","aov.pd.ls1 <- anova(lme.pre.proteobacteria.pd1)"
+"0","aov.pd.ls1"

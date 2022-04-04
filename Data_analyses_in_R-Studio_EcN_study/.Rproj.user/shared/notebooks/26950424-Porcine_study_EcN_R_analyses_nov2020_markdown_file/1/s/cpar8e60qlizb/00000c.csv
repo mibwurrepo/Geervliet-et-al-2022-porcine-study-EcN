@@ -1,0 +1,1 @@
+"0","hist(resid(lme.pd2, method= ""pearson""), breaks=30, col=""grey"")"

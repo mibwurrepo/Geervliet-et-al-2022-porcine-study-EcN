@@ -1,0 +1,8 @@
+"0","# Here, the analysis of one of the immunological data files is showcased. All other immunological files that are present within the data repository were run with the same code, although with alternating parameters."
+"0","my_data <- read.table(""./input_data/Flow_cytometry_NKT_PBMC_Memory_Ki67_EcN.csv"","
+"0","                      header = TRUE,"
+"0","                      sep = "","","
+"0","                      stringsAsFactors = FALSE)"
+"0",""
+"0","boxplot(score ~ group*time,"
+"0","        col=c(""white"",""lightgray""),my_data)"

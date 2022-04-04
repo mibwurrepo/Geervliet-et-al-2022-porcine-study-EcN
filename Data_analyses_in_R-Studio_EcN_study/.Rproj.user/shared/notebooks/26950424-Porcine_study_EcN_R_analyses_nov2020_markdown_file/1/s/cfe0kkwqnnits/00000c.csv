@@ -1,0 +1,7 @@
+"0",""
+"0","# Label points with the textxy function from the calibrate plot"
+"0","library(calibrate)"
+"0","with(subset(res, padj<.5 & abs(log2FoldChange)>0.1), textxy(log2FoldChange, -log10(pvalue), labs=Gene, cex=.8))"
+"0",""
+"0","# The pdf figure should be used to really look at the data, as it has better visibility"
+"0","pdf(file = ""./figures/colon_data_volcano_plot_for_R_d44_padj_xy_limits.pdf"", height = 10, width = 15)"

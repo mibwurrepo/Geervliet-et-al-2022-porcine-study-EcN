@@ -1,0 +1,9 @@
+OTU		these are page numbers in the pdf.
+1321	Corynebacterium	
+1499	Sphingomonas	
+1704	Undibacterium	
+1707	Burkholderiaceae Unmatched_genus	
+1847	Stenotrophomonas	
+2955	Aerococcus	
+3540	Romboutsia	
+3553	Romboutsia	

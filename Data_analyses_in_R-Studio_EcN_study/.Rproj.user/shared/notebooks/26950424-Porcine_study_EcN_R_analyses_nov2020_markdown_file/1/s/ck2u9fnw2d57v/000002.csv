@@ -1,0 +1,3 @@
+"0","# remove pattern in taxa names"
+"0","tax_table(ps1.all)[,colnames(tax_table(ps1.all))] <- gsub(tax_table(ps1.all)[,colnames(tax_table(ps1.all))],pattern=""[a-z]__"",replacement="""")"
+"0",""

@@ -1,0 +1,11 @@
+"0","p <- plot_richness(ps1.faeces, ""Day_of_study_factor"", color = ""Treatment"", measures = ""Shannon"")"
+"2","The data you have provided does not have
+any singletons. This is highly suspicious. Results of richness
+estimates (for example) are probably unreliable, or wrong, if you have already
+trimmed low-abundance taxa from the data.
+
+We recommended that you find the un-trimmed data and retry."
+"0","p <- p + geom_boxplot(outlier.shape = NA, aes(fill = ""Day_of_study"")) + scale_fill_manual(values = c(""white"", ""#5F7FC7"", ""orange"",""#DA5724"", ""#508578""))"
+"0","p <- p + geom_point(position=position_jitterdodge(), alpha=1, size=1.5) #+ theme_bw()"
+"0","p$layers <- p$layers[-1]"
+"0","print (p) #this plot is created for illustrative purposes, and is not saved or used in the manuscript"

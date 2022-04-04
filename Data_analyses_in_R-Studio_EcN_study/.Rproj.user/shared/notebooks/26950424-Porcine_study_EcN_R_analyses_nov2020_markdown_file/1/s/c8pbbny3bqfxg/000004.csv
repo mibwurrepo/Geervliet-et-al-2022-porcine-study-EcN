@@ -1,0 +1,6 @@
+"0",""
+"0","set.seed(456)"
+"0","permanova.pre <- adonis(t(fcs.otu.pre) ~ Treatment + Day_of_study_factor,"
+"0","                    data = fcs.meta.pre, permutations=9999, method = ""bray"")"
+"0",""
+"0","print(as.data.frame(permanova.pre$aov.tab)) #statistically significant differences in beta-diversity between treatment groups when taking into account pre-weaning faecal timepoints (p = 0.005)"

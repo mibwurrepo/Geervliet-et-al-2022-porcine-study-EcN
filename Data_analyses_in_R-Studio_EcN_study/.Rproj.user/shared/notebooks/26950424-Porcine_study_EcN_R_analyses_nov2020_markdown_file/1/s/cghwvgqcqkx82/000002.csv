@@ -1,0 +1,7 @@
+"0","# dataset without mitochondrial/chloroplast reads, but with contaminants"
+"0","saveRDS(ps1, ""./phyobjects/ps1.rds"")"
+"0","ps1 <- readRDS(""./phyobjects/ps1.rds"")"
+"0",""
+"0","# decontaminated dataset"
+"0","saveRDS(ps1.decontam, ""./phyobjects/ps1.decontam.rds"")"
+"0","ps1.decontam <- readRDS(""./phyobjects/ps1.decontam.rds"")"

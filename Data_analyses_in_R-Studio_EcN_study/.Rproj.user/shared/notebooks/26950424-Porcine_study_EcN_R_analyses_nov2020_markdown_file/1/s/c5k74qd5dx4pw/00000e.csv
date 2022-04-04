@@ -1,0 +1,12 @@
+"0",""
+"0","p <- plot_richness(ps1.proteobacteria, ""Origin_Day"", color = ""Treatment"", measures = ""Observed"") + geom_boxplot(outlier.shape = NA, aes(fill = ""Origin_Day"")) + scale_fill_manual(values = c(""white"", ""#5F7FC7"", ""orange"",""#DA5724"", ""#508578"")) + geom_point(shape = 21, aes(alpha = sqrt(EcN_NGS_relative)), position=position_jitterdodge(seed = 456), size=0.5, stroke = 2) + geom_point(position=position_jitterdodge(seed = 456), size = 0.5)     "
+"2","The data you have provided does not have
+any singletons. This is highly suspicious. Results of richness
+estimates (for example) are probably unreliable, or wrong, if you have already
+trimmed low-abundance taxa from the data.
+
+We recommended that you find the un-trimmed data and retry."
+"0","#p <- p + geom_point(position=position_jitterdodge(), alpha = .9, size=2)"
+"0","p$layers <- p$layers[-1]"
+"0","#The final figure can be found under panel B in Figure 2 of the manuscript"
+"0","print(p)"
